@@ -1,5 +1,4 @@
 .claude/
 .env
 .node_modules/
-GIT_TEST/
 test_cache.py

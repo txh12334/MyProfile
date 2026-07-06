@@ -1,0 +1,4 @@
+[submodule "GIT_TEST"]
+	path = GIT_TEST
+	url = https://github.com/txh12334/MyProfile.git
+	branch = 123
