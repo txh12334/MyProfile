@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人简历 · 张明</title>
+
+    <!-- Google Fonts & Font Awesome (CDN) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- 本地样式 -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- ====== 导航栏 ====== -->
+    <header class="navbar" id="navbar" role="navigation" aria-label="主导航">
+        <div class="container">
+            <a href="#hero" class="logo">张<span>明</span></a>
+            <button class="hamburger" id="hamburger" aria-label="切换菜单" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-links" id="navLinks" role="menubar">
+                <a href="#about" role="menuitem">关于我</a>
+                <a href="#experience" role="menuitem">经历</a>
+                <a href="#skills" role="menuitem">技能</a>
+                <a href="#projects" role="menuitem">项目</a>
+                <a href="#education" role="menuitem">教育</a>
+                <a href="#contact" role="menuitem">联系</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ====== 首屏 ====== -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="badge">👋 开放合作</div>
+                <h1>张明 <span>·</span></h1>
+                <p class="hero-title">全栈开发工程师 · 5 年经验</p>
+                <p class="hero-desc">
+                    专注于构建高性能 Web 应用，善于将复杂需求转化为优雅的解决方案。
+                    热爱技术分享与团队协作，持续探索前沿工程实践。
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> 联系我
+                    </a>
+                    <a href="#projects" class="btn btn-outline">
+                        <i class="fas fa-code"></i> 查看项目
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-avatar">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== 关于我 ====== -->
+    <section class="section-padding" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text fade-up">
+                    <span class="badge" style="display:inline-block;font-size:0.75rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--color-secondary-dark);background:rgba(201,168,76,0.12);padding:2px 14px;border-radius:40px;margin-bottom:12px;">关于我</span>
+                    <h2 class="section-title">以代码构建价值</h2>
+                    <p>
+                        我是张明，一位拥有 5 年全栈开发经验的工程师。毕业于北京大学计算机科学专业，
+                        先后在两家科技公司担任核心开发角色，主导过电商、内容管理及数据分析平台的建设。
+                    </p>
+                    <p>
+                        我坚信优秀的软件是技术与人文的结合。在编码之外，我热爱阅读、撰写技术博客，
+                        并积极参与开源社区，相信持续学习是工程师最珍贵的品质。
+                    </p>
+                    <div style="margin-top:24px;display:flex;gap:20px;flex-wrap:wrap;">
+                        <div><i class="fas fa-map-pin" style="color:var(--color-secondary);margin-right:8px;"></i> 北京 · 中国</div>
+                        <div><i class="fas fa-briefcase" style="color:var(--color-secondary);margin-right:8px;"></i> 5 年经验</div>
+                        <div><i class="fas fa-graduation-cap" style="color:var(--color-secondary);margin-right:8px;"></i> 北京大学</div>
+                    </div>
+                </div>
+                <div class="about-highlights fade-up delay-1">
+                    <div class="highlight-item">
+                        <span class="number">12+</span>
+                        <span class="label">交付项目</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="number">8</span>
+                        <span class="label">技术栈深度</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="number">100%</span>
+                        <span class="label">客户满意度</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="number">3</span>
+                        <span class="label">开源贡献</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== 专业经历 ====== -->
+    <section class="section-padding" id="experience">
+        <div class="container">
+            <div class="text-center fade-up">
+                <h2 class="section-title">专业经历</h2>
+                <p class="section-subtitle">从产品构思到技术落地，持续交付高价值解决方案</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item fade-up delay-1">
+                    <div class="meta">
+                        <div>
+                            <h3>高级全栈工程师</h3>
+                            <span class="company">云创科技 · 北京</span>
+                        </div>
+                        <span class="date">2021.06 – 至今</span>
+                    </div>
+                    <ul>
+                        <li>负责公司核心 SaaS 产品的前后端架构升级，采用 React + Node.js 重构，系统响应速度提升 40%。</li>
+                        <li>主导微服务拆分与容器化部署（Docker + Kubernetes），服务可用性从 99.5% 提升至 99.9%。</li>
+                        <li>建立前端组件库与 CI/CD 流水线，团队迭代效率提高 30%，获得年度技术创新奖。</li>
+                    </ul>
+                </div>
+                <div class="timeline-item fade-up delay-2">
+                    <div class="meta">
+                        <div>
+                            <h3>全栈开发工程师</h3>
+                            <span class="company">智联互动 · 北京</span>
+                        </div>
+                        <span class="date">2019.07 – 2021.05</span>
+                    </div>
+                    <ul>
+                        <li>参与电商平台订单系统的设计与开发，基于 Spring Boot + Vue.js 实现日均 10 万+ 订单处理。</li>
+                        <li>优化数据库查询与缓存策略，接口响应时间从 800ms 降至 150ms，显著提升用户体验。</li>
+                        <li>负责技术文档编写与新人指导，推动团队代码规范落地，代码评审通过率提高 25%。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== 技能 ====== -->
+    <section class="section-padding" id="skills">
+        <div class="container">
+            <div class="text-center fade-up">
+                <h2 class="section-title">技能专长</h2>
+                <p class="section-subtitle">技术栈与语言能力，持续更新中</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skills-group fade-up delay-1">
+                    <h4><i class="fas fa-code"></i> 技术技能</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">JavaScript / TypeScript</span>
+                        <span class="skill-tag">React & Vue.js</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java (Spring Boot)</span>
+                        <span class="skill-tag">SQL / MongoDB</span>
+                        <span class="skill-tag">Docker / Kubernetes</span>
+                        <span class="skill-tag">AWS (ECS, S3)</span>
+                        <span class="skill-tag">Git / GitHub Actions</span>
+                        <span class="skill-tag">RESTful / GraphQL</span>
+                    </div>
+                </div>
+                <div class="skills-group fade-up delay-2">
+                    <h4><i class="fas fa-language"></i> 语言能力</h4>
+                    <div class="lang-item">
+                        <span class="lang-name">中文</span>
+                        <span class="lang-level">母语 · 写作及演讲流利</span>
+                    </div>
+                    <div class="lang-item">
+                        <span class="lang-name">英语</span>
+                        <span class="lang-level">CET-6 · 商务沟通与技术文档读写流利</span>
+                    </div>
+                    <div class="lang-item">
+                        <span class="lang-name">日语</span>
+                        <span class="lang-level">日常会话 (N4 水平)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== 项目展示 ====== -->
+    <section class="section-padding" id="projects">
+        <div class="container">
+            <div class="text-center fade-up">
+                <h2 class="section-title">项目案例</h2>
+                <p class="section-subtitle">每个项目都是一次从 0 到 1 的探索</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card fade-up delay-1">
+                    <div class="card">
+                        <h4>「智选」电商平台</h4>
+                        <span class="role">核心开发者 · 2022.03 – 2022.12</span>
+                        <p>全品类 B2C 电商平台，支持商品搜索、购物车、订单跟踪及支付集成。采用微服务架构，日均 PV 超 50 万。</p>
+                        <div class="tech-stack">
+                            <span>React</span><span>Node.js</span><span>MongoDB</span><span>Redis</span><span>Docker</span>
+                        </div>
+                        <div class="project-result">
+                            <i class="fas fa-arrow-right" style="color:var(--color-secondary);margin-right:6px;"></i>
+                            上线 6 个月 GMV 突破 2000 万，用户留存率 68%
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-up delay-2">
+                    <div class="card">
+                        <h4>数据分析仪表板</h4>
+                        <span class="role">全栈负责人 · 2023.04 – 2023.09</span>
+                        <p>为内部运营团队提供实时数据可视化看板，支持多维度筛选与报表导出，帮助管理层快速决策。</p>
+                        <div class="tech-stack">
+                            <span>Vue.js</span><span>D3.js</span><span>Flask</span><span>PostgreSQL</span><span>WebSocket</span>
+                        </div>
+                        <div class="project-result">
+                            <i class="fas fa-arrow-right" style="color:var(--color-secondary);margin-right:6px;"></i>
+                            决策效率提升 35%，日活用户 200+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-up delay-3">
+                    <div class="card">
+                        <h4>开源博客引擎 · Paperlog</h4>
+                        <span class="role">创作者 & 维护者 · 2024.01 – 至今</span>
+                        <p>基于 Markdown 的轻量级博客系统，支持主题切换、SEO 优化及评论集成。GitHub 获 800+ star。</p>
+                        <div class="tech-stack">
+                            <span>Next.js</span><span>Tailwind CSS</span><span>MDX</span><span>Vercel</span>
+                        </div>
+                        <div class="project-result">
+                            <i class="fas fa-arrow-right" style="color:var(--color-secondary);margin-right:6px;"></i>
+                            被 12 位开发者 Fork 使用，社区贡献 20+ PR
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== 教育背景 ====== -->
+    <section class="section-padding" id="education">
+        <div class="container">
+            <div class="text-center fade-up">
+                <h2 class="section-title">教育背景</h2>
+                <p class="section-subtitle">扎实的学术基础，持续的学习习惯</p>
+            </div>
+            <div class="edu-card fade-up delay-1">
+                <div class="edu-left">
+                    <h3>北京大学</h3>
+                    <div class="edu-meta">计算机科学与技术 · 本科</div>
+                    <div class="edu-courses">
+                        <span>数据结构与算法</span><span>操作系统</span><span>数据库系统</span><span>计算机网络</span><span>软件工程</span>
+                    </div>
+                </div>
+                <div class="edu-right">
+                    <div class="degree">工学学士</div>
+                    <div style="font-size:0.85rem;margin-top:4px;">2016.09 – 2020.06</div>
+                    <div style="font-size:0.85rem;color:var(--color-secondary-dark);margin-top:4px;">GPA: 3.8/4.0</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== 联系方式 ====== -->
+    <section class="section-padding" id="contact">
+        <div class="container">
+            <div class="text-center fade-up">
+                <h2 class="section-title">保持联系</h2>
+                <p class="section-subtitle">欢迎交流合作，或只是打个招呼 👋</p>
+            </div>
+            <div class="contact-grid">
+                <a href="mailto:zhangming@email.com" class="contact-item fade-up delay-1">
+                    <i class="fas fa-envelope"></i>
+                    <div class="info"><span class="label">电子邮箱</span><span class="value">zhangming@email.com</span></div>
+                </a>
+                <a href="tel:+8613812345678" class="contact-item fade-up delay-2">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="info"><span class="label">联系电话</span><span class="value">+86 138 1234 5678</span></div>
+                </a>
+                <a href="#" class="contact-item fade-up delay-3">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="info"><span class="label">地址</span><span class="value">北京市朝阳区</span></div>
+                </a>
+                <a href="#" class="contact-item fade-up delay-4">
+                    <i class="fab fa-github"></i>
+                    <div class="info"><span class="label">GitHub</span><span class="value">github.com/zhangming</span></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== 页脚 ====== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="掘金"><i class="fab fa-medium"></i></a>
+            </div>
+            <p class="footer-text">
+                &copy; 2026 <span>张明</span> · 用 <i class="fas fa-heart" style="color:var(--color-secondary);font-size:0.8rem;"></i> 构建
+            </p>
+        </div>
+    </footer>
+
+    <!-- 本地脚本 -->
+    <script src="script.js"></script>
+</body>
+</html>
