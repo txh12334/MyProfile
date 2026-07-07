@@ -3,3 +3,5 @@
 .node_modules/
 test_cache.py
 test.py
+deepseek_v3_tokenizer.zip
+deepseek_v3_tokenizer/
