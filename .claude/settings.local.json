@@ -5,7 +5,27 @@
       "Bash(git commit *)",
       "Bash(git config *)",
       "Bash(git *)",
-      "Bash(export *)"
+      "Bash(export *)",
+      "Bash(bash --version)",
+      "Read(//c/Users/TXH/.claude/projects/F--Git/memory//**)",
+      "Read(//c/Users/TXH/.claude/projects/F--Git/memory/**)",
+      "Skill(update-config)",
+      "Bash(python *)"
+    ]
+  },
+  "alwaysThinkingEnabled": true,
+  "effortLevel": "high",
+  "autoCompactEnabled": true,
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"systemMessage\": \"记得总结本次会话并更新记忆\"}'"
+          }
+        ]
+      }
     ]
   }
 }
